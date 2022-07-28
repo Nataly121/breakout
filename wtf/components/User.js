@@ -2,13 +2,13 @@ import {container} from './DOMcontainers.js'
 
 // creating user
 export default class User {
-    constructor (coordX = 350, coordY = 465)
+    constructor (coordX = 340, coordY = 465)
     {
         this.x = coordX
         this.y = coordY
-        this.OffsetX = 50
+        this.OffsetX = 55
         this.height = 20
-        this.width = 300
+        this.width = 120
     }
     drawUser() {
         this.userOnBoard.style.left = this.x + 'px'
